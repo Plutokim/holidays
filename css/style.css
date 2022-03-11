@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    min-width: 1064px;
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .bodyshadow{
+      background-color: rgba(0,0,0,0.7);
+      min-height: 100vh;
+      background-size: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center
+  }
+.allcontent{
+    width: 1064px;
+    height: 100%;
+    
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header{
+width: 1064px;
+overflow: hidden;
+}
+.linklogo{
+    width: 181px;
+}
+.logo{float: left;
+    font-family: "Verandabold";
+    color: #FFFFFF;
+    width: 181px;
+    text-transform: uppercase;
+}
+.hlogo{
+    font-size: 1.8125rem;
+}
+.slogo{
+    font-size: 1.125rem;
+}
+.logo:before {
+    float: left;
+    content: "";
+    background: url(./img/logo.png) no-repeat;
+    width: 57px;
+    height: 57px;
+    background-size: 100%;
+    margin-right: 15px;
+}
+.logo:hover{
+    color: #F26522;
+}
+.logo:hover::before{
+    content: "";
+    background: url(./img/logo2.png) no-repeat;
+    width: 57px;
+    height: 57px;
+    background-size: 100%;
+}
+.contact{
+    float: right;
+    font-family: "Veranda";
+    font-size: 1.125rem;
+    margin-top: 6.5px;
+    text-align: right;
+}
+main{
+    margin-top: 44px;
+    overflow: hidden;
+    padding-bottom: 61px;
+}
+figure{
+    margin: 0;
+    padding: 0;
+    height: 244px;
+    width: 312px;
+    position: relative;
+}
+figcaption{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Veranda";
+    font-size: 1.125rem;
+    margin-top: 15px;
+}
+figure img{
+    box-sizing: border-box;
+    height: 206px;
+    width: 312px;
+    border: 1px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+    border-image-source: linear-gradient(white,black);
+    box-shadow: 0px 3px 10px;
+}
+.card1{
+    float: left;
+}
+.position{
+    position: absolute;
+    top: 143px;
+}
+.rect{
+    position: relative;
+    font-family: "Veranda";
+    color: #FFFFFF;
+    height: 63px;
+    width: 312px;
+    background-color: #F26522;
+    visibility: hidden;
+}
+.from{
+    position: absolute;
+    font-size: 0.625rem;
+    width: 24px;
+    top:16px;
+    left: 21px;
+}
+.price{
+    position: absolute;
+    font-size: 1.25rem;
+    width: 38px;
+    left: 21px;
+    top:28px;
+}
+.details{
+    position: absolute;
+    font-size: 0.875rem;
+    width: 100px;
+    left: 185px;
+    bottom: 15px;
+}
+.card2{
+    float: left;
+    margin: 0 64px;
+}
+.card3{
+    float: left;
+}
+.card4{
+margin-top: 54px;
+clear: both;
+float: left;
+}
+.card5{
+    margin: 0 64px;
+    margin-top: 54px;
+    float: left;
+}
+.card6{
+    margin-top: 54px;
+    float: left;
+}
+.card1:hover figcaption>a, .card2:hover figcaption>a, .card3:hover figcaption>a, .card4:hover figcaption>a, .card5:hover figcaption>a, .card6:hover figcaption>a{
+    color: #F26522;
+}
+.card1:hover .rect, .card2:hover .rect, .card3:hover .rect, .card4:hover .rect, .card5:hover .rect, .card6:hover .rect{
+    visibility: visible;
+}
+.footertext{
+    font-family: "Veranda";
+    font-size: 0.75rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: "Verandabold";
+    src: url("./font/Verdana\ Bold.ttf");
+}
+@font-face {
+    font-family: "Veranda";
+    src: url("./font/Verdana.ttf");
+}
